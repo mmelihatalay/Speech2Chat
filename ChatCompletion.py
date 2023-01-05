@@ -3,7 +3,7 @@ import openai
 class ChatGPT():
 
     def __init__(self, model_engine="text-davinci-003"):
-        openai.api_key = "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"
+        openai.api_key = "<openAI API key>"
         self.model_engine = model_engine
 
     def response(self, prompt):
