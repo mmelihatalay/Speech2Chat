@@ -7,8 +7,8 @@ class CatchSpeech():
             self.language = lang
 
         def listen(self):
-            with sr.Microphone() as source:                                                                       
-                print("Speak:")                                                                                   
+            with sr.Microphone() as source:
+                print("Speak:")
                 self._audio = self.r.listen(source)
 
         def toTextGoogle(self):
